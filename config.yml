@@ -1,0 +1,16 @@
+data:
+  collisions: "data/raw/collisions.csv"
+  casualties: "data/raw/casualties.csv"
+  vehicles:   "data/raw/vehicles.csv"
+  roads:      "data/raw/os_open_roads.gpkg"
+  oa:         "data/raw/OA_boundaries.gpkg"
+
+filters:
+  years: [2016, 2017, 2018, 2019, 2020, 2021, 2022]
+
+matching:
+  threshold_same: 50
+  threshold_fallback: 100
+
+output:
+  path: "data/derived/injuries_OA.rds"
