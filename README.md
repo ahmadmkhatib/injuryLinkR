@@ -27,7 +27,7 @@ Install from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("yourusername/injuryLinkR")
+devtools::install_github("ahmadmkhatib/injuryLinkR")
 ```
 
 Or install locally:
